@@ -1,7 +1,13 @@
+import Link from 'next/link';
+
 const Index = () => (
-    <div>
+  
+  <div>
+    <Link href='/about'>
+      <button>About page</button>
+    </Link>
       <p>Fcc Quote Generator</p>
-    </div>
+  </div>
   )
   
   export default Index
