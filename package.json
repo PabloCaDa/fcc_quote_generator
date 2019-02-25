@@ -1,0 +1,28 @@
+{
+  "name": "fcc_quote_generator",
+  "version": "1.0.0",
+  "description": "This repository forms part of the FreeCodeCamp Curriculum Course's projects. It's a random quote generator page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloCaDa/fcc_quote_generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloCaDa/fcc_quote_generator/issues"
+  },
+  "homepage": "https://github.com/PabloCaDa/fcc_quote_generator#readme",
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  } 
+}
