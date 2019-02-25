@@ -1,13 +1,10 @@
-import Link from 'next/link';
+import Layout from '../comps/MyLayout';
 
 const Index = () => (
   
-  <div>
-    <Link href='/about'>
-      <button>About page</button>
-    </Link>
+    <Layout>
       <p>Fcc Quote Generator</p>
-  </div>
+    </Layout>
   )
   
   export default Index
