@@ -10,6 +10,18 @@ const Layout = (props) => (
     <div style={layoutStyle}>
         <Header />
         {props.children}
+        <style jsx global>{`
+
+            .flex {
+                display:flex;
+            }
+
+            .flex--center{
+                align-items: center;
+                justify-content: center;
+            }
+        
+        `}</style>
     </div>
 )
 
